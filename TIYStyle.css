@@ -1,0 +1,94 @@
+
+
+
+/* Header */
+ #headerpic {
+  width: 100%;
+} 
+
+.headercontainer {
+
+}
+
+body{
+font-size: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#circle {
+  position: relative;
+  margin: -5% 15% 0 15%;
+  height: 15%;
+  width: 10%;
+  border-radius:100%;
+  border: 5px solid white; 
+}
+
+/* Columns */
+.container {
+  vertical-align: top;
+  margin: auto;
+  max-width:800px;  
+}
+
+/* leftColumn */
+#left {
+  width:20%;
+  background-color: cyan;
+  display:inline-block;
+  margin-right: 5px;
+  
+}
+
+#left h1 {
+  font-size:18px;
+  color: grey;
+}
+
+#left p {
+  font-size:12px;
+  color: black;
+}
+
+/* rightColumn */
+#right {
+  width: 30%;
+  background-color: tomato;
+  display: inline-block;
+}
+
+#right h1 {
+  font-size: 36px;
+  color: black;
+}
+
+#rc p {
+  font-style: italic;
+  font-size: 15px;
+  color: black;
+}
+
+#yo {
+  font-size: 24px;
+}
+#classroom {
+  width: 100%;
+}
+
+/* fixed box */
+
+#followBox{
+  width: 200px;
+  height: 50px; 
+  border: 1px solid #aaa;
+  background: white;
+  border-radius: 5%;
+  border-color: black;
+  position: fixed;
+  right: 0;
+  bottom: 10%;
+}
+
